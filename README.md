@@ -1,4 +1,4 @@
-# Supplemental Materials for PhyG-STMAE
+# Supplemental Materials for PhyG-MAE
 
 This repository provides the supplemental materials associated with the manuscript:
 
@@ -10,12 +10,12 @@ This repository provides the supplemental materials associated with the manuscri
 
 ## Overview
 
-The study presents a Physics-Informed Graph Spatiotemporal Masked Autoencoder (PhyG-STMAE) for two closely related civil-engineering sensing tasks:
+The study presents a Physics-Informed Graph Spatiotemporal Masked Autoencoder (PhyG-MAE) for two closely related civil-engineering sensing tasks:
 
 1. reconstructing full-field wind-pressure responses from a small subset of healthy sensors; and
 2. identifying compact and informative sensor layouts without retraining the imputation model.
 
-PhyG-STMAE incorporates sensor coordinates, wind-profile information, structural aspect ratio, and wind direction into a graph-enhanced masked autoencoder. Distance-weighted graph aggregation captures local geometric relationships, while spatial and temporal Transformer modules learn long-range dependencies in wind-pressure fields.
+PhyG-MAE incorporates sensor coordinates, wind-profile information, structural aspect ratio, and wind direction into a graph-enhanced masked autoencoder. Distance-weighted graph aggregation captures local geometric relationships, while spatial and temporal Transformer modules learn long-range dependencies in wind-pressure fields.
 
 The framework is validated using wind-tunnel pressure measurements for an NACA 4415 airfoil and high-rise building models.
 
@@ -59,7 +59,7 @@ This repository primarily distributes the supplemental results generated in the 
 The manuscript is currently undergoing publication processing. Citation information will be updated after publication.
 
 ```bibtex
-@article{Li_PhyGSTMAE,
+@article{Li_PhyGMAE,
   title   = {Physics-Informed Graph Masked Autoencoder for Spatiotemporal Wind Pressure Imputation and Sensor Placement Optimization},
   author  = {Li, Xue and Li, Peize and Li, Lixiao and Zhou, Yingwu and Xing, Feng and Chen, Cheng},
   journal = {Journal of Computing in Civil Engineering},
